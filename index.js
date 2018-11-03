@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 var prefix = "*";
 
-bot.login(token);
+bot.login("NTA2NDI4NTIwNjAwMzA1NjY0.DriASw.Ifl2fSUDJThZSu3Eo8zd-WhK0yA");
 //EVENT PARAMETRE HEROKU
 app.set('port', (process.env.PORT || 5000))
 
