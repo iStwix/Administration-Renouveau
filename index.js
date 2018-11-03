@@ -147,7 +147,7 @@ client.on('message', message => {
         })
     }
 
-    //NE PAS OUBLIER LES PREREQUIS DANS LA VIDEO :
+    //NE PAS OUBLIER LES PREREQUIS DANS LA VIDEO 
 
 var fs = require('fs');
 
