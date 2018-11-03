@@ -147,7 +147,7 @@ client.on('message', message => {
         })
     }
 
-    //NE PAS OUBLIER LES PREREQUIS DANS LA VIDEO 
+    //NE PAS OUBLIER LES PREREQUIS DANS LA VIDEO :
 
 var fs = require('fs');
 
@@ -417,7 +417,10 @@ if(!message.guild.member(message.author).hasPermission("MANAGE_GUILD")) return m
 
   }
 
-
+clientDiscord.on('messageReactionAdd', (reaction, user) => {
+    if(reaction.emoji.name --- ":white_check_mark: ")
+    membre.guild.roles.find('Vérifié');
+})
 
 
 });
