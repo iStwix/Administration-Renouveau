@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
 const express = require('express');
 const app = express();
+const token = process.env.token;
 const client = new Discord.Client();
 
 var prefix = "*";
 
+bot.login(token);
 //EVENT PARAMETRE HEROKU
 app.set('port', (process.env.PORT || 5000))
 
@@ -12,7 +14,6 @@ app.listen(app.get('port'), function(){
     console.log(`Bot en fonctionnement sur le port ${app.get('port')}`)
 })
 
-client.login("NTA2NDI4NTIwNjAwMzA1NjY0.DriASw.Ifl2fSUDJThZSu3Eo8zd-WhK0yA");
 
 client.on("ready", () => {
     console.log("Fonctionnel !");
